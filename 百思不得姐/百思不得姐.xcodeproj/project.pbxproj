@@ -1,0 +1,1159 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA7ED281CC0E34500DD86E1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED271CC0E34500DD86E1 /* Info.plist */; };
+		0AA7EDBE1CC0E36E00DD86E1 /* JKCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED2D1CC0E36E00DD86E1 /* JKCommentViewController.m */; };
+		0AA7EDBF1CC0E36E00DD86E1 /* JKCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED2E1CC0E36E00DD86E1 /* JKCommentViewController.xib */; };
+		0AA7EDC01CC0E36E00DD86E1 /* JKEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED301CC0E36E00DD86E1 /* JKEssenceViewController.m */; };
+		0AA7EDC11CC0E36E00DD86E1 /* JKRecommendTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED321CC0E36E00DD86E1 /* JKRecommendTagViewController.m */; };
+		0AA7EDC21CC0E36E00DD86E1 /* JKShowPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED341CC0E36E00DD86E1 /* JKShowPictureViewController.m */; };
+		0AA7EDC31CC0E36E00DD86E1 /* JKShowPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED351CC0E36E00DD86E1 /* JKShowPictureViewController.xib */; };
+		0AA7EDC41CC0E36E00DD86E1 /* JKTopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED371CC0E36E00DD86E1 /* JKTopicController.m */; };
+		0AA7EDC51CC0E36E00DD86E1 /* JKCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED3A1CC0E36E00DD86E1 /* JKCommentModel.m */; };
+		0AA7EDC61CC0E36E00DD86E1 /* JKRecommendTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED3C1CC0E36E00DD86E1 /* JKRecommendTagModel.m */; };
+		0AA7EDC71CC0E36E00DD86E1 /* JKTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED3E1CC0E36E00DD86E1 /* JKTopicModel.m */; };
+		0AA7EDC81CC0E36E00DD86E1 /* JKUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED401CC0E36E00DD86E1 /* JKUserModel.m */; };
+		0AA7EDC91CC0E36E00DD86E1 /* JKCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED431CC0E36E00DD86E1 /* JKCommentCell.m */; };
+		0AA7EDCA1CC0E36E00DD86E1 /* JKCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED441CC0E36E00DD86E1 /* JKCommentCell.xib */; };
+		0AA7EDCB1CC0E36E00DD86E1 /* JKProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED461CC0E36E00DD86E1 /* JKProgressView.m */; };
+		0AA7EDCC1CC0E36E00DD86E1 /* JKRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED481CC0E36E00DD86E1 /* JKRecommendTagCell.m */; };
+		0AA7EDCD1CC0E36E00DD86E1 /* JKRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED491CC0E36E00DD86E1 /* JKRecommendTagCell.xib */; };
+		0AA7EDCE1CC0E36E00DD86E1 /* JKTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED4B1CC0E36E00DD86E1 /* JKTopicCell.m */; };
+		0AA7EDCF1CC0E36E00DD86E1 /* JKTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED4C1CC0E36E00DD86E1 /* JKTopicCell.xib */; };
+		0AA7EDD01CC0E36E00DD86E1 /* JKTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED4E1CC0E36E00DD86E1 /* JKTopicPictureView.m */; };
+		0AA7EDD11CC0E36E00DD86E1 /* JKTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED4F1CC0E36E00DD86E1 /* JKTopicPictureView.xib */; };
+		0AA7EDD21CC0E36E00DD86E1 /* JKTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED511CC0E36E00DD86E1 /* JKTopicVideoView.m */; };
+		0AA7EDD31CC0E36E00DD86E1 /* JKTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED521CC0E36E00DD86E1 /* JKTopicVideoView.xib */; };
+		0AA7EDD41CC0E36E00DD86E1 /* JKTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED541CC0E36E00DD86E1 /* JKTopicVoiceView.m */; };
+		0AA7EDD51CC0E36E00DD86E1 /* JKTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED551CC0E36E00DD86E1 /* JKTopicVoiceView.xib */; };
+		0AA7EDD61CC0E36E00DD86E1 /* JKFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED591CC0E36E00DD86E1 /* JKFriendTrendsViewController.m */; };
+		0AA7EDD71CC0E36E00DD86E1 /* JKFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED5A1CC0E36E00DD86E1 /* JKFriendTrendsViewController.xib */; };
+		0AA7EDD81CC0E36E00DD86E1 /* JKLoginRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED5C1CC0E36E00DD86E1 /* JKLoginRegisterController.m */; };
+		0AA7EDD91CC0E36E00DD86E1 /* JKLoginRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED5D1CC0E36E00DD86E1 /* JKLoginRegisterController.xib */; };
+		0AA7EDDA1CC0E36E00DD86E1 /* JKRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED5F1CC0E36E00DD86E1 /* JKRecommendViewController.m */; };
+		0AA7EDDB1CC0E36E00DD86E1 /* JKRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED601CC0E36E00DD86E1 /* JKRecommendViewController.xib */; };
+		0AA7EDDC1CC0E36E00DD86E1 /* JKRecommedCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED631CC0E36E00DD86E1 /* JKRecommedCategory.m */; };
+		0AA7EDDD1CC0E36E00DD86E1 /* JKRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED651CC0E36E00DD86E1 /* JKRecommendUser.m */; };
+		0AA7EDDE1CC0E36E00DD86E1 /* JKRecommedCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED681CC0E36E00DD86E1 /* JKRecommedCategoryCell.m */; };
+		0AA7EDDF1CC0E36E00DD86E1 /* JKRecommedCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED691CC0E36E00DD86E1 /* JKRecommedCategoryCell.xib */; };
+		0AA7EDE01CC0E36E00DD86E1 /* JKRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED6B1CC0E36E00DD86E1 /* JKRecommendUserCell.m */; };
+		0AA7EDE11CC0E36E00DD86E1 /* JKRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED6C1CC0E36E00DD86E1 /* JKRecommendUserCell.xib */; };
+		0AA7EDE21CC0E36E00DD86E1 /* JKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED6E1CC0E36E00DD86E1 /* JKTextField.m */; };
+		0AA7EDE31CC0E36E00DD86E1 /* JKVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED701CC0E36E00DD86E1 /* JKVerticalButton.m */; };
+		0AA7EDE41CC0E36E00DD86E1 /* JKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED741CC0E36E00DD86E1 /* JKMeViewController.m */; };
+		0AA7EDE51CC0E36E00DD86E1 /* JKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED761CC0E36E00DD86E1 /* JKSettingViewController.m */; };
+		0AA7EDE61CC0E36E00DD86E1 /* JKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED781CC0E36E00DD86E1 /* JKWebViewController.m */; };
+		0AA7EDE71CC0E36E00DD86E1 /* JKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7ED791CC0E36E00DD86E1 /* JKWebViewController.xib */; };
+		0AA7EDE81CC0E36E00DD86E1 /* JKSquareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED7C1CC0E36E00DD86E1 /* JKSquareModel.m */; };
+		0AA7EDE91CC0E36E00DD86E1 /* JKMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED7F1CC0E36E00DD86E1 /* JKMeCell.m */; };
+		0AA7EDEA1CC0E36E00DD86E1 /* JKMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED811CC0E36E00DD86E1 /* JKMeFooterView.m */; };
+		0AA7EDEB1CC0E36E00DD86E1 /* JKSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED831CC0E36E00DD86E1 /* JKSquareButton.m */; };
+		0AA7EDEC1CC0E36E00DD86E1 /* JKNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED871CC0E36E00DD86E1 /* JKNewViewController.m */; };
+		0AA7EDED1CC0E36E00DD86E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED8C1CC0E36E00DD86E1 /* AppDelegate.m */; };
+		0AA7EDEE1CC0E36E00DD86E1 /* NSDate+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED8F1CC0E36E00DD86E1 /* NSDate+JKExtension.m */; };
+		0AA7EDEF1CC0E36E00DD86E1 /* UIBarButtonItem+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED911CC0E36E00DD86E1 /* UIBarButtonItem+JKExtension.m */; };
+		0AA7EDF01CC0E36E00DD86E1 /* UIImage+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED931CC0E36E00DD86E1 /* UIImage+JKExtension.m */; };
+		0AA7EDF11CC0E36E00DD86E1 /* UIImageView+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED951CC0E36E00DD86E1 /* UIImageView+JKExtension.m */; };
+		0AA7EDF21CC0E36E00DD86E1 /* UIView+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED971CC0E36E00DD86E1 /* UIView+JKExtension.m */; };
+		0AA7EDF31CC0E36E00DD86E1 /* JKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED9A1CC0E36E00DD86E1 /* JKNavigationController.m */; };
+		0AA7EDF41CC0E36E00DD86E1 /* JKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED9C1CC0E36E00DD86E1 /* JKTabBarController.m */; };
+		0AA7EDF51CC0E36E00DD86E1 /* JKConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7ED9E1CC0E36E00DD86E1 /* JKConst.m */; };
+		0AA7EDF61CC0E36E00DD86E1 /* JKLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EDA01CC0E36E00DD86E1 /* JKLoginTool.m */; };
+		0AA7EDF71CC0E36E00DD86E1 /* JKPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EDA41CC0E36E00DD86E1 /* JKPushGuideView.m */; };
+		0AA7EDF81CC0E36E00DD86E1 /* JKPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7EDA51CC0E36E00DD86E1 /* JKPushGuideView.xib */; };
+		0AA7EDF91CC0E36E00DD86E1 /* JKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EDA71CC0E36E00DD86E1 /* JKTabBar.m */; };
+		0AA7EDFA1CC0E36E00DD86E1 /* JKTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EDA91CC0E36E00DD86E1 /* JKTopWindow.m */; };
+		0AA7EDFB1CC0E36E00DD86E1 /* JKAddTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EDAD1CC0E36E00DD86E1 /* JKAddTagViewController.m */; };
+		0AA7EDFC1CC0E36E00DD86E1 /* JKPublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EDAF1CC0E36E00DD86E1 /* JKPublishView.m */; };
+		0AA7EDFD1CC0E36E00DD86E1 /* JKPublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7EDB01CC0E36E00DD86E1 /* JKPublishView.xib */; };
+		0AA7EDFE1CC0E36E00DD86E1 /* JKPublishWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EDB21CC0E36E00DD86E1 /* JKPublishWordViewController.m */; };
+		0AA7EDFF1CC0E36E00DD86E1 /* JKAddTagToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EDB61CC0E36E00DD86E1 /* JKAddTagToolBar.m */; };
+		0AA7EE001CC0E36E00DD86E1 /* JKAddTagToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7EDB71CC0E36E00DD86E1 /* JKAddTagToolBar.xib */; };
+		0AA7EE011CC0E36E00DD86E1 /* JKPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EDB91CC0E36E00DD86E1 /* JKPlaceholderTextView.m */; };
+		0AA7EE021CC0E36E00DD86E1 /* JKTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EDBB1CC0E36E00DD86E1 /* JKTagButton.m */; };
+		0AA7EE031CC0E36E00DD86E1 /* JKTagTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EDBD1CC0E36E00DD86E1 /* JKTagTextField.m */; };
+		0AA7EE051CC0E3E100DD86E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7EE041CC0E3E100DD86E1 /* main.m */; };
+		0AE8FF361CA0DAED00FB0DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8FF351CA0DAED00FB0DAA /* Assets.xcassets */; };
+		0AE8FF441CA0DAED00FB0DAA /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8FF431CA0DAED00FB0DAA /* _____Tests.m */; };
+		0AE8FF4F1CA0DAED00FB0DAA /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8FF4E1CA0DAED00FB0DAA /* _____UITests.m */; };
+		D370BFFC00347FFA5040469B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEF233E4C440C79ACB81044 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AE8FF401CA0DAED00FB0DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AE8FF1E1CA0DAED00FB0DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AE8FF251CA0DAED00FB0DAA;
+			remoteInfo = "百思不得姐";
+		};
+		0AE8FF4B1CA0DAED00FB0DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AE8FF1E1CA0DAED00FB0DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AE8FF251CA0DAED00FB0DAA;
+			remoteInfo = "百思不得姐";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA7ED271CC0E34500DD86E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA7ED2C1CC0E36E00DD86E1 /* JKCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCommentViewController.h; sourceTree = "<group>"; };
+		0AA7ED2D1CC0E36E00DD86E1 /* JKCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCommentViewController.m; sourceTree = "<group>"; };
+		0AA7ED2E1CC0E36E00DD86E1 /* JKCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKCommentViewController.xib; sourceTree = "<group>"; };
+		0AA7ED2F1CC0E36E00DD86E1 /* JKEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKEssenceViewController.h; sourceTree = "<group>"; };
+		0AA7ED301CC0E36E00DD86E1 /* JKEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKEssenceViewController.m; sourceTree = "<group>"; };
+		0AA7ED311CC0E36E00DD86E1 /* JKRecommendTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRecommendTagViewController.h; sourceTree = "<group>"; };
+		0AA7ED321CC0E36E00DD86E1 /* JKRecommendTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRecommendTagViewController.m; sourceTree = "<group>"; };
+		0AA7ED331CC0E36E00DD86E1 /* JKShowPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKShowPictureViewController.h; sourceTree = "<group>"; };
+		0AA7ED341CC0E36E00DD86E1 /* JKShowPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKShowPictureViewController.m; sourceTree = "<group>"; };
+		0AA7ED351CC0E36E00DD86E1 /* JKShowPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKShowPictureViewController.xib; sourceTree = "<group>"; };
+		0AA7ED361CC0E36E00DD86E1 /* JKTopicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicController.h; sourceTree = "<group>"; };
+		0AA7ED371CC0E36E00DD86E1 /* JKTopicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicController.m; sourceTree = "<group>"; };
+		0AA7ED391CC0E36E00DD86E1 /* JKCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCommentModel.h; sourceTree = "<group>"; };
+		0AA7ED3A1CC0E36E00DD86E1 /* JKCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCommentModel.m; sourceTree = "<group>"; };
+		0AA7ED3B1CC0E36E00DD86E1 /* JKRecommendTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRecommendTagModel.h; sourceTree = "<group>"; };
+		0AA7ED3C1CC0E36E00DD86E1 /* JKRecommendTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRecommendTagModel.m; sourceTree = "<group>"; };
+		0AA7ED3D1CC0E36E00DD86E1 /* JKTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicModel.h; sourceTree = "<group>"; };
+		0AA7ED3E1CC0E36E00DD86E1 /* JKTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicModel.m; sourceTree = "<group>"; };
+		0AA7ED3F1CC0E36E00DD86E1 /* JKUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKUserModel.h; sourceTree = "<group>"; };
+		0AA7ED401CC0E36E00DD86E1 /* JKUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKUserModel.m; sourceTree = "<group>"; };
+		0AA7ED421CC0E36E00DD86E1 /* JKCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCommentCell.h; sourceTree = "<group>"; };
+		0AA7ED431CC0E36E00DD86E1 /* JKCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCommentCell.m; sourceTree = "<group>"; };
+		0AA7ED441CC0E36E00DD86E1 /* JKCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKCommentCell.xib; sourceTree = "<group>"; };
+		0AA7ED451CC0E36E00DD86E1 /* JKProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKProgressView.h; sourceTree = "<group>"; };
+		0AA7ED461CC0E36E00DD86E1 /* JKProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKProgressView.m; sourceTree = "<group>"; };
+		0AA7ED471CC0E36E00DD86E1 /* JKRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRecommendTagCell.h; sourceTree = "<group>"; };
+		0AA7ED481CC0E36E00DD86E1 /* JKRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRecommendTagCell.m; sourceTree = "<group>"; };
+		0AA7ED491CC0E36E00DD86E1 /* JKRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKRecommendTagCell.xib; sourceTree = "<group>"; };
+		0AA7ED4A1CC0E36E00DD86E1 /* JKTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicCell.h; sourceTree = "<group>"; };
+		0AA7ED4B1CC0E36E00DD86E1 /* JKTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicCell.m; sourceTree = "<group>"; };
+		0AA7ED4C1CC0E36E00DD86E1 /* JKTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKTopicCell.xib; sourceTree = "<group>"; };
+		0AA7ED4D1CC0E36E00DD86E1 /* JKTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicPictureView.h; sourceTree = "<group>"; };
+		0AA7ED4E1CC0E36E00DD86E1 /* JKTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicPictureView.m; sourceTree = "<group>"; };
+		0AA7ED4F1CC0E36E00DD86E1 /* JKTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKTopicPictureView.xib; sourceTree = "<group>"; };
+		0AA7ED501CC0E36E00DD86E1 /* JKTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicVideoView.h; sourceTree = "<group>"; };
+		0AA7ED511CC0E36E00DD86E1 /* JKTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicVideoView.m; sourceTree = "<group>"; };
+		0AA7ED521CC0E36E00DD86E1 /* JKTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKTopicVideoView.xib; sourceTree = "<group>"; };
+		0AA7ED531CC0E36E00DD86E1 /* JKTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicVoiceView.h; sourceTree = "<group>"; };
+		0AA7ED541CC0E36E00DD86E1 /* JKTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicVoiceView.m; sourceTree = "<group>"; };
+		0AA7ED551CC0E36E00DD86E1 /* JKTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKTopicVoiceView.xib; sourceTree = "<group>"; };
+		0AA7ED581CC0E36E00DD86E1 /* JKFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKFriendTrendsViewController.h; sourceTree = "<group>"; };
+		0AA7ED591CC0E36E00DD86E1 /* JKFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKFriendTrendsViewController.m; sourceTree = "<group>"; };
+		0AA7ED5A1CC0E36E00DD86E1 /* JKFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		0AA7ED5B1CC0E36E00DD86E1 /* JKLoginRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKLoginRegisterController.h; sourceTree = "<group>"; };
+		0AA7ED5C1CC0E36E00DD86E1 /* JKLoginRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLoginRegisterController.m; sourceTree = "<group>"; };
+		0AA7ED5D1CC0E36E00DD86E1 /* JKLoginRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKLoginRegisterController.xib; sourceTree = "<group>"; };
+		0AA7ED5E1CC0E36E00DD86E1 /* JKRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRecommendViewController.h; sourceTree = "<group>"; };
+		0AA7ED5F1CC0E36E00DD86E1 /* JKRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRecommendViewController.m; sourceTree = "<group>"; };
+		0AA7ED601CC0E36E00DD86E1 /* JKRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKRecommendViewController.xib; sourceTree = "<group>"; };
+		0AA7ED621CC0E36E00DD86E1 /* JKRecommedCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRecommedCategory.h; sourceTree = "<group>"; };
+		0AA7ED631CC0E36E00DD86E1 /* JKRecommedCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRecommedCategory.m; sourceTree = "<group>"; };
+		0AA7ED641CC0E36E00DD86E1 /* JKRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRecommendUser.h; sourceTree = "<group>"; };
+		0AA7ED651CC0E36E00DD86E1 /* JKRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRecommendUser.m; sourceTree = "<group>"; };
+		0AA7ED671CC0E36E00DD86E1 /* JKRecommedCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRecommedCategoryCell.h; sourceTree = "<group>"; };
+		0AA7ED681CC0E36E00DD86E1 /* JKRecommedCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRecommedCategoryCell.m; sourceTree = "<group>"; };
+		0AA7ED691CC0E36E00DD86E1 /* JKRecommedCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKRecommedCategoryCell.xib; sourceTree = "<group>"; };
+		0AA7ED6A1CC0E36E00DD86E1 /* JKRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRecommendUserCell.h; sourceTree = "<group>"; };
+		0AA7ED6B1CC0E36E00DD86E1 /* JKRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRecommendUserCell.m; sourceTree = "<group>"; };
+		0AA7ED6C1CC0E36E00DD86E1 /* JKRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKRecommendUserCell.xib; sourceTree = "<group>"; };
+		0AA7ED6D1CC0E36E00DD86E1 /* JKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTextField.h; sourceTree = "<group>"; };
+		0AA7ED6E1CC0E36E00DD86E1 /* JKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTextField.m; sourceTree = "<group>"; };
+		0AA7ED6F1CC0E36E00DD86E1 /* JKVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVerticalButton.h; sourceTree = "<group>"; };
+		0AA7ED701CC0E36E00DD86E1 /* JKVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVerticalButton.m; sourceTree = "<group>"; };
+		0AA7ED731CC0E36E00DD86E1 /* JKMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMeViewController.h; sourceTree = "<group>"; };
+		0AA7ED741CC0E36E00DD86E1 /* JKMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKMeViewController.m; sourceTree = "<group>"; };
+		0AA7ED751CC0E36E00DD86E1 /* JKSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSettingViewController.h; sourceTree = "<group>"; };
+		0AA7ED761CC0E36E00DD86E1 /* JKSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSettingViewController.m; sourceTree = "<group>"; };
+		0AA7ED771CC0E36E00DD86E1 /* JKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKWebViewController.h; sourceTree = "<group>"; };
+		0AA7ED781CC0E36E00DD86E1 /* JKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKWebViewController.m; sourceTree = "<group>"; };
+		0AA7ED791CC0E36E00DD86E1 /* JKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKWebViewController.xib; sourceTree = "<group>"; };
+		0AA7ED7B1CC0E36E00DD86E1 /* JKSquareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSquareModel.h; sourceTree = "<group>"; };
+		0AA7ED7C1CC0E36E00DD86E1 /* JKSquareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSquareModel.m; sourceTree = "<group>"; };
+		0AA7ED7E1CC0E36E00DD86E1 /* JKMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMeCell.h; sourceTree = "<group>"; };
+		0AA7ED7F1CC0E36E00DD86E1 /* JKMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKMeCell.m; sourceTree = "<group>"; };
+		0AA7ED801CC0E36E00DD86E1 /* JKMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMeFooterView.h; sourceTree = "<group>"; };
+		0AA7ED811CC0E36E00DD86E1 /* JKMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKMeFooterView.m; sourceTree = "<group>"; };
+		0AA7ED821CC0E36E00DD86E1 /* JKSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSquareButton.h; sourceTree = "<group>"; };
+		0AA7ED831CC0E36E00DD86E1 /* JKSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSquareButton.m; sourceTree = "<group>"; };
+		0AA7ED861CC0E36E00DD86E1 /* JKNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNewViewController.h; sourceTree = "<group>"; };
+		0AA7ED871CC0E36E00DD86E1 /* JKNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNewViewController.m; sourceTree = "<group>"; };
+		0AA7ED8B1CC0E36E00DD86E1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AA7ED8C1CC0E36E00DD86E1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AA7ED8E1CC0E36E00DD86E1 /* NSDate+JKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKExtension.h"; sourceTree = "<group>"; };
+		0AA7ED8F1CC0E36E00DD86E1 /* NSDate+JKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKExtension.m"; sourceTree = "<group>"; };
+		0AA7ED901CC0E36E00DD86E1 /* UIBarButtonItem+JKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JKExtension.h"; sourceTree = "<group>"; };
+		0AA7ED911CC0E36E00DD86E1 /* UIBarButtonItem+JKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JKExtension.m"; sourceTree = "<group>"; };
+		0AA7ED921CC0E36E00DD86E1 /* UIImage+JKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKExtension.h"; sourceTree = "<group>"; };
+		0AA7ED931CC0E36E00DD86E1 /* UIImage+JKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKExtension.m"; sourceTree = "<group>"; };
+		0AA7ED941CC0E36E00DD86E1 /* UIImageView+JKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JKExtension.h"; sourceTree = "<group>"; };
+		0AA7ED951CC0E36E00DD86E1 /* UIImageView+JKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JKExtension.m"; sourceTree = "<group>"; };
+		0AA7ED961CC0E36E00DD86E1 /* UIView+JKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKExtension.h"; sourceTree = "<group>"; };
+		0AA7ED971CC0E36E00DD86E1 /* UIView+JKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKExtension.m"; sourceTree = "<group>"; };
+		0AA7ED991CC0E36E00DD86E1 /* JKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNavigationController.h; sourceTree = "<group>"; };
+		0AA7ED9A1CC0E36E00DD86E1 /* JKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNavigationController.m; sourceTree = "<group>"; };
+		0AA7ED9B1CC0E36E00DD86E1 /* JKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTabBarController.h; sourceTree = "<group>"; };
+		0AA7ED9C1CC0E36E00DD86E1 /* JKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTabBarController.m; sourceTree = "<group>"; };
+		0AA7ED9D1CC0E36E00DD86E1 /* JKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKConst.h; sourceTree = "<group>"; };
+		0AA7ED9E1CC0E36E00DD86E1 /* JKConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKConst.m; sourceTree = "<group>"; };
+		0AA7ED9F1CC0E36E00DD86E1 /* JKLoginTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKLoginTool.h; sourceTree = "<group>"; };
+		0AA7EDA01CC0E36E00DD86E1 /* JKLoginTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLoginTool.m; sourceTree = "<group>"; };
+		0AA7EDA11CC0E36E00DD86E1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0AA7EDA31CC0E36E00DD86E1 /* JKPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPushGuideView.h; sourceTree = "<group>"; };
+		0AA7EDA41CC0E36E00DD86E1 /* JKPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPushGuideView.m; sourceTree = "<group>"; };
+		0AA7EDA51CC0E36E00DD86E1 /* JKPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKPushGuideView.xib; sourceTree = "<group>"; };
+		0AA7EDA61CC0E36E00DD86E1 /* JKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTabBar.h; sourceTree = "<group>"; };
+		0AA7EDA71CC0E36E00DD86E1 /* JKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTabBar.m; sourceTree = "<group>"; };
+		0AA7EDA81CC0E36E00DD86E1 /* JKTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopWindow.h; sourceTree = "<group>"; };
+		0AA7EDA91CC0E36E00DD86E1 /* JKTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopWindow.m; sourceTree = "<group>"; };
+		0AA7EDAC1CC0E36E00DD86E1 /* JKAddTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAddTagViewController.h; sourceTree = "<group>"; };
+		0AA7EDAD1CC0E36E00DD86E1 /* JKAddTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAddTagViewController.m; sourceTree = "<group>"; };
+		0AA7EDAE1CC0E36E00DD86E1 /* JKPublishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPublishView.h; sourceTree = "<group>"; };
+		0AA7EDAF1CC0E36E00DD86E1 /* JKPublishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPublishView.m; sourceTree = "<group>"; };
+		0AA7EDB01CC0E36E00DD86E1 /* JKPublishView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKPublishView.xib; sourceTree = "<group>"; };
+		0AA7EDB11CC0E36E00DD86E1 /* JKPublishWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPublishWordViewController.h; sourceTree = "<group>"; };
+		0AA7EDB21CC0E36E00DD86E1 /* JKPublishWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPublishWordViewController.m; sourceTree = "<group>"; };
+		0AA7EDB51CC0E36E00DD86E1 /* JKAddTagToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAddTagToolBar.h; sourceTree = "<group>"; };
+		0AA7EDB61CC0E36E00DD86E1 /* JKAddTagToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAddTagToolBar.m; sourceTree = "<group>"; };
+		0AA7EDB71CC0E36E00DD86E1 /* JKAddTagToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKAddTagToolBar.xib; sourceTree = "<group>"; };
+		0AA7EDB81CC0E36E00DD86E1 /* JKPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPlaceholderTextView.h; sourceTree = "<group>"; };
+		0AA7EDB91CC0E36E00DD86E1 /* JKPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPlaceholderTextView.m; sourceTree = "<group>"; };
+		0AA7EDBA1CC0E36E00DD86E1 /* JKTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTagButton.h; sourceTree = "<group>"; };
+		0AA7EDBB1CC0E36E00DD86E1 /* JKTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTagButton.m; sourceTree = "<group>"; };
+		0AA7EDBC1CC0E36E00DD86E1 /* JKTagTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTagTextField.h; sourceTree = "<group>"; };
+		0AA7EDBD1CC0E36E00DD86E1 /* JKTagTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTagTextField.m; sourceTree = "<group>"; };
+		0AA7EE041CC0E3E100DD86E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Classes/Publish-发布/main.m"; sourceTree = "<group>"; };
+		0AE8FF261CA0DAED00FB0DAA /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE8FF351CA0DAED00FB0DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AE8FF3F1CA0DAED00FB0DAA /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE8FF431CA0DAED00FB0DAA /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		0AE8FF451CA0DAED00FB0DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE8FF4A1CA0DAED00FB0DAA /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE8FF4E1CA0DAED00FB0DAA /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		0AE8FF501CA0DAED00FB0DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E0950907CEC3EDBBB134882 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4EA85F3B511B59177372C9B5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BCEF233E4C440C79ACB81044 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AE8FF231CA0DAED00FB0DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D370BFFC00347FFA5040469B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE8FF3C1CA0DAED00FB0DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE8FF471CA0DAED00FB0DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA7ED291CC0E36E00DD86E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED2A1CC0E36E00DD86E1 /* Essence-精华 */,
+				0AA7ED561CC0E36E00DD86E1 /* Friend-关注 */,
+				0AA7ED711CC0E36E00DD86E1 /* Me-我 */,
+				0AA7ED841CC0E36E00DD86E1 /* New-新帖 */,
+				0AA7ED8A1CC0E36E00DD86E1 /* Other-其他 */,
+				0AA7EDAA1CC0E36E00DD86E1 /* Publish-发布 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0AA7ED2A1CC0E36E00DD86E1 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED2B1CC0E36E00DD86E1 /* Controller */,
+				0AA7ED381CC0E36E00DD86E1 /* Model */,
+				0AA7ED411CC0E36E00DD86E1 /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		0AA7ED2B1CC0E36E00DD86E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED2C1CC0E36E00DD86E1 /* JKCommentViewController.h */,
+				0AA7ED2D1CC0E36E00DD86E1 /* JKCommentViewController.m */,
+				0AA7ED2E1CC0E36E00DD86E1 /* JKCommentViewController.xib */,
+				0AA7ED2F1CC0E36E00DD86E1 /* JKEssenceViewController.h */,
+				0AA7ED301CC0E36E00DD86E1 /* JKEssenceViewController.m */,
+				0AA7ED311CC0E36E00DD86E1 /* JKRecommendTagViewController.h */,
+				0AA7ED321CC0E36E00DD86E1 /* JKRecommendTagViewController.m */,
+				0AA7ED331CC0E36E00DD86E1 /* JKShowPictureViewController.h */,
+				0AA7ED341CC0E36E00DD86E1 /* JKShowPictureViewController.m */,
+				0AA7ED351CC0E36E00DD86E1 /* JKShowPictureViewController.xib */,
+				0AA7ED361CC0E36E00DD86E1 /* JKTopicController.h */,
+				0AA7ED371CC0E36E00DD86E1 /* JKTopicController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0AA7ED381CC0E36E00DD86E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED391CC0E36E00DD86E1 /* JKCommentModel.h */,
+				0AA7ED3A1CC0E36E00DD86E1 /* JKCommentModel.m */,
+				0AA7ED3B1CC0E36E00DD86E1 /* JKRecommendTagModel.h */,
+				0AA7ED3C1CC0E36E00DD86E1 /* JKRecommendTagModel.m */,
+				0AA7ED3D1CC0E36E00DD86E1 /* JKTopicModel.h */,
+				0AA7ED3E1CC0E36E00DD86E1 /* JKTopicModel.m */,
+				0AA7ED3F1CC0E36E00DD86E1 /* JKUserModel.h */,
+				0AA7ED401CC0E36E00DD86E1 /* JKUserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AA7ED411CC0E36E00DD86E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED421CC0E36E00DD86E1 /* JKCommentCell.h */,
+				0AA7ED431CC0E36E00DD86E1 /* JKCommentCell.m */,
+				0AA7ED441CC0E36E00DD86E1 /* JKCommentCell.xib */,
+				0AA7ED451CC0E36E00DD86E1 /* JKProgressView.h */,
+				0AA7ED461CC0E36E00DD86E1 /* JKProgressView.m */,
+				0AA7ED471CC0E36E00DD86E1 /* JKRecommendTagCell.h */,
+				0AA7ED481CC0E36E00DD86E1 /* JKRecommendTagCell.m */,
+				0AA7ED491CC0E36E00DD86E1 /* JKRecommendTagCell.xib */,
+				0AA7ED4A1CC0E36E00DD86E1 /* JKTopicCell.h */,
+				0AA7ED4B1CC0E36E00DD86E1 /* JKTopicCell.m */,
+				0AA7ED4C1CC0E36E00DD86E1 /* JKTopicCell.xib */,
+				0AA7ED4D1CC0E36E00DD86E1 /* JKTopicPictureView.h */,
+				0AA7ED4E1CC0E36E00DD86E1 /* JKTopicPictureView.m */,
+				0AA7ED4F1CC0E36E00DD86E1 /* JKTopicPictureView.xib */,
+				0AA7ED501CC0E36E00DD86E1 /* JKTopicVideoView.h */,
+				0AA7ED511CC0E36E00DD86E1 /* JKTopicVideoView.m */,
+				0AA7ED521CC0E36E00DD86E1 /* JKTopicVideoView.xib */,
+				0AA7ED531CC0E36E00DD86E1 /* JKTopicVoiceView.h */,
+				0AA7ED541CC0E36E00DD86E1 /* JKTopicVoiceView.m */,
+				0AA7ED551CC0E36E00DD86E1 /* JKTopicVoiceView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AA7ED561CC0E36E00DD86E1 /* Friend-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED571CC0E36E00DD86E1 /* Controller */,
+				0AA7ED611CC0E36E00DD86E1 /* Model */,
+				0AA7ED661CC0E36E00DD86E1 /* View */,
+			);
+			path = "Friend-关注";
+			sourceTree = "<group>";
+		};
+		0AA7ED571CC0E36E00DD86E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED581CC0E36E00DD86E1 /* JKFriendTrendsViewController.h */,
+				0AA7ED591CC0E36E00DD86E1 /* JKFriendTrendsViewController.m */,
+				0AA7ED5A1CC0E36E00DD86E1 /* JKFriendTrendsViewController.xib */,
+				0AA7ED5B1CC0E36E00DD86E1 /* JKLoginRegisterController.h */,
+				0AA7ED5C1CC0E36E00DD86E1 /* JKLoginRegisterController.m */,
+				0AA7ED5D1CC0E36E00DD86E1 /* JKLoginRegisterController.xib */,
+				0AA7ED5E1CC0E36E00DD86E1 /* JKRecommendViewController.h */,
+				0AA7ED5F1CC0E36E00DD86E1 /* JKRecommendViewController.m */,
+				0AA7ED601CC0E36E00DD86E1 /* JKRecommendViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0AA7ED611CC0E36E00DD86E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED621CC0E36E00DD86E1 /* JKRecommedCategory.h */,
+				0AA7ED631CC0E36E00DD86E1 /* JKRecommedCategory.m */,
+				0AA7ED641CC0E36E00DD86E1 /* JKRecommendUser.h */,
+				0AA7ED651CC0E36E00DD86E1 /* JKRecommendUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AA7ED661CC0E36E00DD86E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED671CC0E36E00DD86E1 /* JKRecommedCategoryCell.h */,
+				0AA7ED681CC0E36E00DD86E1 /* JKRecommedCategoryCell.m */,
+				0AA7ED691CC0E36E00DD86E1 /* JKRecommedCategoryCell.xib */,
+				0AA7ED6A1CC0E36E00DD86E1 /* JKRecommendUserCell.h */,
+				0AA7ED6B1CC0E36E00DD86E1 /* JKRecommendUserCell.m */,
+				0AA7ED6C1CC0E36E00DD86E1 /* JKRecommendUserCell.xib */,
+				0AA7ED6D1CC0E36E00DD86E1 /* JKTextField.h */,
+				0AA7ED6E1CC0E36E00DD86E1 /* JKTextField.m */,
+				0AA7ED6F1CC0E36E00DD86E1 /* JKVerticalButton.h */,
+				0AA7ED701CC0E36E00DD86E1 /* JKVerticalButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AA7ED711CC0E36E00DD86E1 /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED721CC0E36E00DD86E1 /* Controller */,
+				0AA7ED7A1CC0E36E00DD86E1 /* Model */,
+				0AA7ED7D1CC0E36E00DD86E1 /* View */,
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
+		0AA7ED721CC0E36E00DD86E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED731CC0E36E00DD86E1 /* JKMeViewController.h */,
+				0AA7ED741CC0E36E00DD86E1 /* JKMeViewController.m */,
+				0AA7ED751CC0E36E00DD86E1 /* JKSettingViewController.h */,
+				0AA7ED761CC0E36E00DD86E1 /* JKSettingViewController.m */,
+				0AA7ED771CC0E36E00DD86E1 /* JKWebViewController.h */,
+				0AA7ED781CC0E36E00DD86E1 /* JKWebViewController.m */,
+				0AA7ED791CC0E36E00DD86E1 /* JKWebViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0AA7ED7A1CC0E36E00DD86E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED7B1CC0E36E00DD86E1 /* JKSquareModel.h */,
+				0AA7ED7C1CC0E36E00DD86E1 /* JKSquareModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AA7ED7D1CC0E36E00DD86E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED7E1CC0E36E00DD86E1 /* JKMeCell.h */,
+				0AA7ED7F1CC0E36E00DD86E1 /* JKMeCell.m */,
+				0AA7ED801CC0E36E00DD86E1 /* JKMeFooterView.h */,
+				0AA7ED811CC0E36E00DD86E1 /* JKMeFooterView.m */,
+				0AA7ED821CC0E36E00DD86E1 /* JKSquareButton.h */,
+				0AA7ED831CC0E36E00DD86E1 /* JKSquareButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AA7ED841CC0E36E00DD86E1 /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED851CC0E36E00DD86E1 /* Controller */,
+				0AA7ED881CC0E36E00DD86E1 /* Model */,
+				0AA7ED891CC0E36E00DD86E1 /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		0AA7ED851CC0E36E00DD86E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED861CC0E36E00DD86E1 /* JKNewViewController.h */,
+				0AA7ED871CC0E36E00DD86E1 /* JKNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0AA7ED881CC0E36E00DD86E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AA7ED891CC0E36E00DD86E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AA7ED8A1CC0E36E00DD86E1 /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED8B1CC0E36E00DD86E1 /* AppDelegate.h */,
+				0AA7ED8C1CC0E36E00DD86E1 /* AppDelegate.m */,
+				0AA7ED8D1CC0E36E00DD86E1 /* Category */,
+				0AA7ED981CC0E36E00DD86E1 /* Controller */,
+				0AA7ED9D1CC0E36E00DD86E1 /* JKConst.h */,
+				0AA7ED9E1CC0E36E00DD86E1 /* JKConst.m */,
+				0AA7ED9F1CC0E36E00DD86E1 /* JKLoginTool.h */,
+				0AA7EDA01CC0E36E00DD86E1 /* JKLoginTool.m */,
+				0AA7EDA11CC0E36E00DD86E1 /* PrefixHeader.pch */,
+				0AA7EDA21CC0E36E00DD86E1 /* View */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		0AA7ED8D1CC0E36E00DD86E1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED8E1CC0E36E00DD86E1 /* NSDate+JKExtension.h */,
+				0AA7ED8F1CC0E36E00DD86E1 /* NSDate+JKExtension.m */,
+				0AA7ED901CC0E36E00DD86E1 /* UIBarButtonItem+JKExtension.h */,
+				0AA7ED911CC0E36E00DD86E1 /* UIBarButtonItem+JKExtension.m */,
+				0AA7ED921CC0E36E00DD86E1 /* UIImage+JKExtension.h */,
+				0AA7ED931CC0E36E00DD86E1 /* UIImage+JKExtension.m */,
+				0AA7ED941CC0E36E00DD86E1 /* UIImageView+JKExtension.h */,
+				0AA7ED951CC0E36E00DD86E1 /* UIImageView+JKExtension.m */,
+				0AA7ED961CC0E36E00DD86E1 /* UIView+JKExtension.h */,
+				0AA7ED971CC0E36E00DD86E1 /* UIView+JKExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0AA7ED981CC0E36E00DD86E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED991CC0E36E00DD86E1 /* JKNavigationController.h */,
+				0AA7ED9A1CC0E36E00DD86E1 /* JKNavigationController.m */,
+				0AA7ED9B1CC0E36E00DD86E1 /* JKTabBarController.h */,
+				0AA7ED9C1CC0E36E00DD86E1 /* JKTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0AA7EDA21CC0E36E00DD86E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7EDA31CC0E36E00DD86E1 /* JKPushGuideView.h */,
+				0AA7EDA41CC0E36E00DD86E1 /* JKPushGuideView.m */,
+				0AA7EDA51CC0E36E00DD86E1 /* JKPushGuideView.xib */,
+				0AA7EDA61CC0E36E00DD86E1 /* JKTabBar.h */,
+				0AA7EDA71CC0E36E00DD86E1 /* JKTabBar.m */,
+				0AA7EDA81CC0E36E00DD86E1 /* JKTopWindow.h */,
+				0AA7EDA91CC0E36E00DD86E1 /* JKTopWindow.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AA7EDAA1CC0E36E00DD86E1 /* Publish-发布 */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7EDAB1CC0E36E00DD86E1 /* Controller */,
+				0AA7EDB31CC0E36E00DD86E1 /* Model */,
+				0AA7EDB41CC0E36E00DD86E1 /* View */,
+			);
+			path = "Publish-发布";
+			sourceTree = "<group>";
+		};
+		0AA7EDAB1CC0E36E00DD86E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7EDAC1CC0E36E00DD86E1 /* JKAddTagViewController.h */,
+				0AA7EDAD1CC0E36E00DD86E1 /* JKAddTagViewController.m */,
+				0AA7EDAE1CC0E36E00DD86E1 /* JKPublishView.h */,
+				0AA7EDAF1CC0E36E00DD86E1 /* JKPublishView.m */,
+				0AA7EDB01CC0E36E00DD86E1 /* JKPublishView.xib */,
+				0AA7EDB11CC0E36E00DD86E1 /* JKPublishWordViewController.h */,
+				0AA7EDB21CC0E36E00DD86E1 /* JKPublishWordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0AA7EDB31CC0E36E00DD86E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AA7EDB41CC0E36E00DD86E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7EDB51CC0E36E00DD86E1 /* JKAddTagToolBar.h */,
+				0AA7EDB61CC0E36E00DD86E1 /* JKAddTagToolBar.m */,
+				0AA7EDB71CC0E36E00DD86E1 /* JKAddTagToolBar.xib */,
+				0AA7EDB81CC0E36E00DD86E1 /* JKPlaceholderTextView.h */,
+				0AA7EDB91CC0E36E00DD86E1 /* JKPlaceholderTextView.m */,
+				0AA7EDBA1CC0E36E00DD86E1 /* JKTagButton.h */,
+				0AA7EDBB1CC0E36E00DD86E1 /* JKTagButton.m */,
+				0AA7EDBC1CC0E36E00DD86E1 /* JKTagTextField.h */,
+				0AA7EDBD1CC0E36E00DD86E1 /* JKTagTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AE8FF1D1CA0DAED00FB0DAA = {
+			isa = PBXGroup;
+			children = (
+				0AE8FF281CA0DAED00FB0DAA /* 百思不得姐 */,
+				0AE8FF421CA0DAED00FB0DAA /* 百思不得姐Tests */,
+				0AE8FF4D1CA0DAED00FB0DAA /* 百思不得姐UITests */,
+				0AE8FF271CA0DAED00FB0DAA /* Products */,
+				CF8AE3D3292EFC9595C4ACCF /* Pods */,
+				72009A4E17195AE15DC988A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0AE8FF271CA0DAED00FB0DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8FF261CA0DAED00FB0DAA /* 百思不得姐.app */,
+				0AE8FF3F1CA0DAED00FB0DAA /* 百思不得姐Tests.xctest */,
+				0AE8FF4A1CA0DAED00FB0DAA /* 百思不得姐UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AE8FF281CA0DAED00FB0DAA /* 百思不得姐 */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7ED291CC0E36E00DD86E1 /* Classes */,
+				0AA7EE041CC0E3E100DD86E1 /* main.m */,
+				0AE8FF291CA0DAED00FB0DAA /* Supporting Files */,
+			);
+			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		0AE8FF291CA0DAED00FB0DAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8FF351CA0DAED00FB0DAA /* Assets.xcassets */,
+				0AA7ED271CC0E34500DD86E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AE8FF421CA0DAED00FB0DAA /* 百思不得姐Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8FF431CA0DAED00FB0DAA /* _____Tests.m */,
+				0AE8FF451CA0DAED00FB0DAA /* Info.plist */,
+			);
+			path = "百思不得姐Tests";
+			sourceTree = "<group>";
+		};
+		0AE8FF4D1CA0DAED00FB0DAA /* 百思不得姐UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8FF4E1CA0DAED00FB0DAA /* _____UITests.m */,
+				0AE8FF501CA0DAED00FB0DAA /* Info.plist */,
+			);
+			path = "百思不得姐UITests";
+			sourceTree = "<group>";
+		};
+		72009A4E17195AE15DC988A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF233E4C440C79ACB81044 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF8AE3D3292EFC9595C4ACCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E0950907CEC3EDBBB134882 /* Pods.debug.xcconfig */,
+				4EA85F3B511B59177372C9B5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AE8FF251CA0DAED00FB0DAA /* 百思不得姐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE8FF531CA0DAED00FB0DAA /* Build configuration list for PBXNativeTarget "百思不得姐" */;
+			buildPhases = (
+				0FE8752446C713A6AB8BAA3A /* Check Pods Manifest.lock */,
+				0AE8FF221CA0DAED00FB0DAA /* Sources */,
+				0AE8FF231CA0DAED00FB0DAA /* Frameworks */,
+				0AE8FF241CA0DAED00FB0DAA /* Resources */,
+				061D66781189A0FF36F2A2ED /* Embed Pods Frameworks */,
+				C756AF916158D463A1F2542A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百思不得姐";
+			productName = "百思不得姐";
+			productReference = 0AE8FF261CA0DAED00FB0DAA /* 百思不得姐.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AE8FF3E1CA0DAED00FB0DAA /* 百思不得姐Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE8FF561CA0DAED00FB0DAA /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */;
+			buildPhases = (
+				0AE8FF3B1CA0DAED00FB0DAA /* Sources */,
+				0AE8FF3C1CA0DAED00FB0DAA /* Frameworks */,
+				0AE8FF3D1CA0DAED00FB0DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AE8FF411CA0DAED00FB0DAA /* PBXTargetDependency */,
+			);
+			name = "百思不得姐Tests";
+			productName = "百思不得姐Tests";
+			productReference = 0AE8FF3F1CA0DAED00FB0DAA /* 百思不得姐Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AE8FF491CA0DAED00FB0DAA /* 百思不得姐UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE8FF591CA0DAED00FB0DAA /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */;
+			buildPhases = (
+				0AE8FF461CA0DAED00FB0DAA /* Sources */,
+				0AE8FF471CA0DAED00FB0DAA /* Frameworks */,
+				0AE8FF481CA0DAED00FB0DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AE8FF4C1CA0DAED00FB0DAA /* PBXTargetDependency */,
+			);
+			name = "百思不得姐UITests";
+			productName = "百思不得姐UITests";
+			productReference = 0AE8FF4A1CA0DAED00FB0DAA /* 百思不得姐UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AE8FF1E1CA0DAED00FB0DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JK;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "张俊凯";
+				TargetAttributes = {
+					0AE8FF251CA0DAED00FB0DAA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0AE8FF3E1CA0DAED00FB0DAA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0AE8FF251CA0DAED00FB0DAA;
+					};
+					0AE8FF491CA0DAED00FB0DAA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0AE8FF251CA0DAED00FB0DAA;
+					};
+				};
+			};
+			buildConfigurationList = 0AE8FF211CA0DAED00FB0DAA /* Build configuration list for PBXProject "百思不得姐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AE8FF1D1CA0DAED00FB0DAA;
+			productRefGroup = 0AE8FF271CA0DAED00FB0DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AE8FF251CA0DAED00FB0DAA /* 百思不得姐 */,
+				0AE8FF3E1CA0DAED00FB0DAA /* 百思不得姐Tests */,
+				0AE8FF491CA0DAED00FB0DAA /* 百思不得姐UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AE8FF241CA0DAED00FB0DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA7EDD51CC0E36E00DD86E1 /* JKTopicVoiceView.xib in Resources */,
+				0AA7EE001CC0E36E00DD86E1 /* JKAddTagToolBar.xib in Resources */,
+				0AA7ED281CC0E34500DD86E1 /* Info.plist in Resources */,
+				0AA7EDC31CC0E36E00DD86E1 /* JKShowPictureViewController.xib in Resources */,
+				0AA7EDDB1CC0E36E00DD86E1 /* JKRecommendViewController.xib in Resources */,
+				0AA7EDD11CC0E36E00DD86E1 /* JKTopicPictureView.xib in Resources */,
+				0AA7EDD71CC0E36E00DD86E1 /* JKFriendTrendsViewController.xib in Resources */,
+				0AA7EDD91CC0E36E00DD86E1 /* JKLoginRegisterController.xib in Resources */,
+				0AA7EDCD1CC0E36E00DD86E1 /* JKRecommendTagCell.xib in Resources */,
+				0AA7EDCF1CC0E36E00DD86E1 /* JKTopicCell.xib in Resources */,
+				0AA7EDE11CC0E36E00DD86E1 /* JKRecommendUserCell.xib in Resources */,
+				0AA7EDE71CC0E36E00DD86E1 /* JKWebViewController.xib in Resources */,
+				0AA7EDD31CC0E36E00DD86E1 /* JKTopicVideoView.xib in Resources */,
+				0AA7EDCA1CC0E36E00DD86E1 /* JKCommentCell.xib in Resources */,
+				0AA7EDF81CC0E36E00DD86E1 /* JKPushGuideView.xib in Resources */,
+				0AA7EDBF1CC0E36E00DD86E1 /* JKCommentViewController.xib in Resources */,
+				0AA7EDDF1CC0E36E00DD86E1 /* JKRecommedCategoryCell.xib in Resources */,
+				0AE8FF361CA0DAED00FB0DAA /* Assets.xcassets in Resources */,
+				0AA7EDFD1CC0E36E00DD86E1 /* JKPublishView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE8FF3D1CA0DAED00FB0DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE8FF481CA0DAED00FB0DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		061D66781189A0FF36F2A2ED /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FE8752446C713A6AB8BAA3A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C756AF916158D463A1F2542A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AE8FF221CA0DAED00FB0DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA7EDC41CC0E36E00DD86E1 /* JKTopicController.m in Sources */,
+				0AA7EDF01CC0E36E00DD86E1 /* UIImage+JKExtension.m in Sources */,
+				0AA7EDE31CC0E36E00DD86E1 /* JKVerticalButton.m in Sources */,
+				0AA7EDE01CC0E36E00DD86E1 /* JKRecommendUserCell.m in Sources */,
+				0AA7EDCE1CC0E36E00DD86E1 /* JKTopicCell.m in Sources */,
+				0AA7EDD41CC0E36E00DD86E1 /* JKTopicVoiceView.m in Sources */,
+				0AA7EDFE1CC0E36E00DD86E1 /* JKPublishWordViewController.m in Sources */,
+				0AA7EDFF1CC0E36E00DD86E1 /* JKAddTagToolBar.m in Sources */,
+				0AA7EDC01CC0E36E00DD86E1 /* JKEssenceViewController.m in Sources */,
+				0AA7EDF61CC0E36E00DD86E1 /* JKLoginTool.m in Sources */,
+				0AA7EDCC1CC0E36E00DD86E1 /* JKRecommendTagCell.m in Sources */,
+				0AA7EDD21CC0E36E00DD86E1 /* JKTopicVideoView.m in Sources */,
+				0AA7EDF71CC0E36E00DD86E1 /* JKPushGuideView.m in Sources */,
+				0AA7EE011CC0E36E00DD86E1 /* JKPlaceholderTextView.m in Sources */,
+				0AA7EDEC1CC0E36E00DD86E1 /* JKNewViewController.m in Sources */,
+				0AA7EDE51CC0E36E00DD86E1 /* JKSettingViewController.m in Sources */,
+				0AA7EE051CC0E3E100DD86E1 /* main.m in Sources */,
+				0AA7EDDE1CC0E36E00DD86E1 /* JKRecommedCategoryCell.m in Sources */,
+				0AA7EDD61CC0E36E00DD86E1 /* JKFriendTrendsViewController.m in Sources */,
+				0AA7EDC21CC0E36E00DD86E1 /* JKShowPictureViewController.m in Sources */,
+				0AA7EDBE1CC0E36E00DD86E1 /* JKCommentViewController.m in Sources */,
+				0AA7EDFC1CC0E36E00DD86E1 /* JKPublishView.m in Sources */,
+				0AA7EDF91CC0E36E00DD86E1 /* JKTabBar.m in Sources */,
+				0AA7EDED1CC0E36E00DD86E1 /* AppDelegate.m in Sources */,
+				0AA7EDEB1CC0E36E00DD86E1 /* JKSquareButton.m in Sources */,
+				0AA7EDFB1CC0E36E00DD86E1 /* JKAddTagViewController.m in Sources */,
+				0AA7EE021CC0E36E00DD86E1 /* JKTagButton.m in Sources */,
+				0AA7EDC91CC0E36E00DD86E1 /* JKCommentCell.m in Sources */,
+				0AA7EDF21CC0E36E00DD86E1 /* UIView+JKExtension.m in Sources */,
+				0AA7EDC51CC0E36E00DD86E1 /* JKCommentModel.m in Sources */,
+				0AA7EDF31CC0E36E00DD86E1 /* JKNavigationController.m in Sources */,
+				0AA7EDD01CC0E36E00DD86E1 /* JKTopicPictureView.m in Sources */,
+				0AA7EDE21CC0E36E00DD86E1 /* JKTextField.m in Sources */,
+				0AA7EDFA1CC0E36E00DD86E1 /* JKTopWindow.m in Sources */,
+				0AA7EDC11CC0E36E00DD86E1 /* JKRecommendTagViewController.m in Sources */,
+				0AA7EDDD1CC0E36E00DD86E1 /* JKRecommendUser.m in Sources */,
+				0AA7EDC81CC0E36E00DD86E1 /* JKUserModel.m in Sources */,
+				0AA7EDE81CC0E36E00DD86E1 /* JKSquareModel.m in Sources */,
+				0AA7EDE41CC0E36E00DD86E1 /* JKMeViewController.m in Sources */,
+				0AA7EDEE1CC0E36E00DD86E1 /* NSDate+JKExtension.m in Sources */,
+				0AA7EDF11CC0E36E00DD86E1 /* UIImageView+JKExtension.m in Sources */,
+				0AA7EDE91CC0E36E00DD86E1 /* JKMeCell.m in Sources */,
+				0AA7EDDA1CC0E36E00DD86E1 /* JKRecommendViewController.m in Sources */,
+				0AA7EDC71CC0E36E00DD86E1 /* JKTopicModel.m in Sources */,
+				0AA7EDCB1CC0E36E00DD86E1 /* JKProgressView.m in Sources */,
+				0AA7EDC61CC0E36E00DD86E1 /* JKRecommendTagModel.m in Sources */,
+				0AA7EE031CC0E36E00DD86E1 /* JKTagTextField.m in Sources */,
+				0AA7EDEF1CC0E36E00DD86E1 /* UIBarButtonItem+JKExtension.m in Sources */,
+				0AA7EDEA1CC0E36E00DD86E1 /* JKMeFooterView.m in Sources */,
+				0AA7EDDC1CC0E36E00DD86E1 /* JKRecommedCategory.m in Sources */,
+				0AA7EDF51CC0E36E00DD86E1 /* JKConst.m in Sources */,
+				0AA7EDE61CC0E36E00DD86E1 /* JKWebViewController.m in Sources */,
+				0AA7EDD81CC0E36E00DD86E1 /* JKLoginRegisterController.m in Sources */,
+				0AA7EDF41CC0E36E00DD86E1 /* JKTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE8FF3B1CA0DAED00FB0DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE8FF441CA0DAED00FB0DAA /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AE8FF461CA0DAED00FB0DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE8FF4F1CA0DAED00FB0DAA /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AE8FF411CA0DAED00FB0DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AE8FF251CA0DAED00FB0DAA /* 百思不得姐 */;
+			targetProxy = 0AE8FF401CA0DAED00FB0DAA /* PBXContainerItemProxy */;
+		};
+		0AE8FF4C1CA0DAED00FB0DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AE8FF251CA0DAED00FB0DAA /* 百思不得姐 */;
+			targetProxy = 0AE8FF4B1CA0DAED00FB0DAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AE8FF511CA0DAED00FB0DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AE8FF521CA0DAED00FB0DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AE8FF541CA0DAED00FB0DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0950907CEC3EDBBB134882 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/百思不得姐/Classes/Other-其他/PrefixHeader.pch";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cago.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AE8FF551CA0DAED00FB0DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA85F3B511B59177372C9B5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/百思不得姐/Classes/Other-其他/PrefixHeader.pch";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cago.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AE8FF571CA0DAED00FB0DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cago.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐.app/百思不得姐";
+			};
+			name = Debug;
+		};
+		0AE8FF581CA0DAED00FB0DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cago.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐.app/百思不得姐";
+			};
+			name = Release;
+		};
+		0AE8FF5A1CA0DAED00FB0DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百思不得姐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cago.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百思不得姐";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0AE8FF5B1CA0DAED00FB0DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百思不得姐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cago.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百思不得姐";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AE8FF211CA0DAED00FB0DAA /* Build configuration list for PBXProject "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE8FF511CA0DAED00FB0DAA /* Debug */,
+				0AE8FF521CA0DAED00FB0DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE8FF531CA0DAED00FB0DAA /* Build configuration list for PBXNativeTarget "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE8FF541CA0DAED00FB0DAA /* Debug */,
+				0AE8FF551CA0DAED00FB0DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE8FF561CA0DAED00FB0DAA /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE8FF571CA0DAED00FB0DAA /* Debug */,
+				0AE8FF581CA0DAED00FB0DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE8FF591CA0DAED00FB0DAA /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE8FF5A1CA0DAED00FB0DAA /* Debug */,
+				0AE8FF5B1CA0DAED00FB0DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AE8FF1E1CA0DAED00FB0DAA /* Project object */;
+}

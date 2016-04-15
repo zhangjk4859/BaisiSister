@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JKRecommendViewController">
+            <connections>
+                <outlet property="categoryTableView" destination="Uyf-Sl-Hn9" id="XdK-k4-f61"/>
+                <outlet property="userTableView" destination="Bgd-Xv-6Do" id="dyS-yp-741"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Uyf-Sl-Hn9" userLabel="左侧的表格">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="fHc-Mi-LUN"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="eWM-xZ-1ZS"/>
+                        <outlet property="delegate" destination="-1" id="uh9-yJ-IA6"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Bgd-Xv-6Do" userLabel="右侧的表格">
+                    <rect key="frame" x="70" y="0.0" width="530" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="PMH-sF-9ge"/>
+                        <outlet property="delegate" destination="-1" id="FPq-6a-fsR"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Uyf-Sl-Hn9" secondAttribute="bottom" id="0cU-Wp-bEa"/>
+                <constraint firstItem="Bgd-Xv-6Do" firstAttribute="leading" secondItem="Uyf-Sl-Hn9" secondAttribute="trailing" id="5ey-wj-tHW"/>
+                <constraint firstItem="Uyf-Sl-Hn9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DnD-jj-mW2"/>
+                <constraint firstItem="Uyf-Sl-Hn9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="G5w-Zl-5MR"/>
+                <constraint firstAttribute="bottom" secondItem="Bgd-Xv-6Do" secondAttribute="bottom" id="Idq-cP-z6u"/>
+                <constraint firstItem="Bgd-Xv-6Do" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="VfT-VN-sOt"/>
+                <constraint firstAttribute="trailing" secondItem="Bgd-Xv-6Do" secondAttribute="trailing" id="qXD-Gz-Jgr"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

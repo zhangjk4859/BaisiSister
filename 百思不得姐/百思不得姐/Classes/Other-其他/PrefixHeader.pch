@@ -1,0 +1,46 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by 张俊凯 on 16/3/22.
+//  Copyright © 2016年 张俊凯. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+JKExtension.h"
+#import "UIBarButtonItem+JKExtension.h"
+#import "JKConst.h"
+#import "NSDate+JKExtension.h"
+#import "UIImageView+JKExtension.h"
+
+//调试状态打印日志
+#ifdef DEBUG
+#define JKLog(...) NSLog(__VA_ARGS__)
+#else
+#define JKLog(...)
+#endif
+
+
+//通知中心
+#define JKNoteCenter [NSNotificationCenter  defaultCenter]
+//打印函数
+#define JKLogFunc JKLog(@"%s",__func__)
+
+//自定义颜色
+#define JKRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//全局主题颜色
+#define JKGlobalbg JKRGBColor(223,223,223)
+//按钮颜色
+#define JKButtonbg JKRGBColor(74, 139, 209)
+
+//随机色
+#define JKRandomColor JKRGBColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+#define JKScreenW  [UIScreen mainScreen].bounds.size.width
+#define JKScreenH  [UIScreen mainScreen].bounds.size.height
+
+
+
+#endif /* PrefixHeader_pch */

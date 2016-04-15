@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="category" id="KGk-i7-Jjw" customClass="JKRecommedCategoryCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2KA-WC-Pi0" userLabel="separateView">
+                        <rect key="frame" x="0.0" y="42.5" width="320" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="487-HK-zFH"/>
+                            <constraint firstAttribute="height" constant="1" id="QaJ-6T-MjH"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lxu-4v-lOb" userLabel="leftView">
+                        <rect key="frame" x="0.0" y="0.0" width="5" height="42.5"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="5" id="5GE-pI-JOh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2KA-WC-Pi0" firstAttribute="top" secondItem="Lxu-4v-lOb" secondAttribute="bottom" id="B6N-WR-oNn"/>
+                    <constraint firstItem="Lxu-4v-lOb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ude-au-ShX"/>
+                    <constraint firstAttribute="bottom" secondItem="2KA-WC-Pi0" secondAttribute="bottom" id="XNM-UM-zqZ"/>
+                    <constraint firstItem="2KA-WC-Pi0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="n1B-ff-Vg9"/>
+                    <constraint firstAttribute="trailing" secondItem="2KA-WC-Pi0" secondAttribute="trailing" id="swY-0w-VI4"/>
+                    <constraint firstItem="Lxu-4v-lOb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xsm-gH-7ZP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="selectedIndicator" destination="Lxu-4v-lOb" id="OiF-34-HYl"/>
+            </connections>
+            <point key="canvasLocation" x="239" y="270"/>
+        </tableViewCell>
+    </objects>
+</document>
